@@ -1,0 +1,13 @@
+# Unity YAML merge
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.meta eol=lf
+
+
+# Scripts must keep working on both platforms
+*.sh text eol=lf
+*.command text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cs text eol=lf
